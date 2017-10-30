@@ -1,0 +1,109 @@
+/* You can add global styles to this file, and also import other style files */
+app-root {
+  background-color: #222325;
+}
+
+a, i {
+  color: #bfbfbf;
+}
+
+div.container-fluid {
+  background: url(//d10xkldqejj5hr.cloudfront.net/content/images/HD_sitebackimage_5_poster3.jpg) repeat-x #000 fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav .container-fluid {
+  background: #000000;
+  max-width: 1170px;
+}
+
+div.container {
+  color: #969696;
+  background-color: #222325;
+  justify-content: center;
+}
+
+nav.navbar {
+  background: #000000;
+  opacity: 0.9;
+  height: 4em;
+  padding-top: 1em;
+}
+
+div.logo-container {
+  padding-top: 5em;
+}
+
+#logo {
+  width: 100%;
+}
+
+.container h1 {
+  padding-left: 1em;
+}
+
+.carousel .slick-prev:before, .carousel .slick-next:before {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1;
+  opacity: 1;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.7);
+  -webkit-font-smoothing: antialiased;
+}
+
+.carousel ul {
+  padding-right: 40px;
+}
+
+.nav-list li {
+  vertical-align: middle;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: rgba(167,172,178,1);
+}
+
+.slick-dots li button:before {
+  color: #C0C0C0
+}
+
+.slick-dots li.slick-active button:before {
+  color: #098BBD
+}
+
+div.slide {
+  position: relative;
+  margin: 0 2px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+footer {
+  width: 1170px;
+  background: #292A2C;
+  justify-content: center;
+  padding-bottom: 4em;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4em;
+  color: #bfbfbf;
+}
+
+#signUpNow {
+  color: #098BBD;
+  font-weight: bold;
+}
+
+#page-help {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 1000;
+}
