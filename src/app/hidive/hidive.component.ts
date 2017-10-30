@@ -14,13 +14,8 @@ export class HidiveComponent implements OnInit {
 
   constructor(http: Http) {
     let baseUrl:string = getBaseUrl();
-    let storage;
-    console.log(baseUrl);
     http.get(baseUrl + 'api/hidive').subscribe(result => {
-      console.log(result);
       this.TitleRows = result.json() as TitleRow[];
-      console.log(this.TitleRows);
-      // this.TitleRows[0].Titles.forEach(row => console.log(row)); 
     }, error => console.error(error));
   }
 

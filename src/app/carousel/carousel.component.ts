@@ -27,7 +27,6 @@ export class CarouselComponent implements OnChanges {
   }
   ngOnChanges() {
     this.items = this.arr;
-    console.log(this.items, 'this items after view checked');
   }
 
 

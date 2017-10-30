@@ -12894,9 +12894,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "c:\\users\\harrison\\documents\\visual studio 2017\\Projects\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
       "projectName": "WebApplication5",
@@ -12932,26 +12929,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "2.4.4"
-          },
-          "MongoDB.Bson": {
-            "target": "Package",
-            "version": "2.4.4"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
+          "AfominDotCom.AspNetCore.AngularCLI": {
+            "target": "Package",
+            "version": "1.0.3"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
           },
-          "AfominDotCom.AspNetCore.AngularCLI": {
+          "MongoDB.Bson": {
             "target": "Package",
-            "version": "1.0.3"
+            "version": "2.4.4"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "2.4.4"
           }
         },
         "imports": [
